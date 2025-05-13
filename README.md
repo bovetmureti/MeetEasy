@@ -22,7 +22,7 @@ Firebase account
 Google Cloud account with Maps JavaScript API enabled
 Installation
 Clone the repository
-git clone https://github.com/yourusername/meeteasy.git
+git clone https://github.com/bovetmureti/MeetEasy.git
 cd meeteasy
 Install dependencies
 npm install
@@ -44,6 +44,7 @@ npm run build
 Deploy to Firebase Hosting
 firebase deploy
 Project Structure
+
 meeteasy/
 ├── public/                  # Public assets
 │   ├── alert-sound.mp3      # Alert sound for proximity notifications
@@ -63,6 +64,7 @@ meeteasy/
 │   └── serviceWorker.js     # Service worker for PWA functionality
 └── package.json             # Project dependencies
 Usage Guide
+
 Creating a Meetup
 Open the app and click "Create Meetup"
 Share the generated 6-digit code with the person you want to meet
